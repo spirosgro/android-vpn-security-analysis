@@ -1,0 +1,11 @@
+finding_id,metric,value,unit,denominator,evidence_status,source,interpretation
+RF-01,applications_analyzed,20,applications,,reported_unverified,archived_coursework_presentation,Cohort inventory and versions unavailable
+RF-02,mean_mobsf_score,48.9,points_out_of_100,20,reported_unverified,archived_coursework_presentation,Tool score is not a complete security rating
+RF-03,apps_with_possible_hardcoded_secrets,75,percent,20,reported_unverified,archived_coursework_presentation,Candidates require analyst validation
+RF-04,mean_detected_trackers,6.1,trackers_per_app,20,reported_unverified,archived_coursework_presentation,Presence requires privacy-context review
+RF-05,apps_with_sha1_indicators,55,percent,20,reported_unverified,archived_coursework_presentation,Usage context is unknown
+RF-06,apps_with_md5_indicators,40,percent,20,reported_unverified,archived_coursework_presentation,Usage context is unknown
+RF-07,apps_with_rsa_below_2048,20,percent,20,reported_unverified,archived_coursework_presentation,Key role and certificate context unavailable
+RF-08,apps_with_cleartext_traffic_indicator,45,percent,20,reported_unverified,archived_coursework_presentation,Static configuration indicator; runtime behavior untested
+RF-09,mean_dangerous_permissions,4.9,permissions_per_app,20,reported_unverified,archived_coursework_presentation,Necessity depends on features and Android version
+RF-10,apps_in_reported_low_risk_category,0,applications,20,reported_unverified,archived_coursework_presentation,"Historical MobSF category, not an independent verdict"

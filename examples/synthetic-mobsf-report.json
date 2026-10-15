@@ -1,0 +1,28 @@
+{
+  "app_name": "Synthetic VPN",
+  "package_name": "com.example.syntheticvpn",
+  "version_name": "1.0.0",
+  "version_code": "100",
+  "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "appsec": {
+    "security_score": 62,
+    "high": [{"title": "Synthetic high finding"}],
+    "warning": [{"title": "Synthetic warning finding"}]
+  },
+  "permissions": {
+    "android.permission.INTERNET": {"status": "normal"},
+    "android.permission.CAMERA": {"status": "dangerous"}
+  },
+  "trackers": {
+    "detected_trackers": 2,
+    "total_trackers": 432,
+    "trackers": [{"name": "Synthetic Analytics", "categories": ["Analytics"]}]
+  },
+  "secrets": ["SYNTHETIC_PLACEHOLDER_NOT_A_REAL_SECRET"],
+  "manifest_analysis": {
+    "manifest_summary": {"high": 1, "warning": 2, "info": 3, "suppressed": 0}
+  },
+  "certificate_analysis": {
+    "certificate_summary": {"high": 0, "warning": 1, "info": 2}
+  }
+}

@@ -1,0 +1,23 @@
+project: vpn-android-security-analysis
+analysis_type: static
+source_tool:
+  name: MobSF
+  original_reported_version: 4.4.5
+  new_runs: pin_container_image_by_digest
+evidence_status: reported_unverified
+required_run_metadata:
+  - package_name
+  - app_version
+  - version_code
+  - apk_sha256
+  - acquisition_date_utc
+  - scan_date_utc
+  - mobsf_version
+  - mobsf_image_digest
+  - analyst
+public_repository_excludes:
+  - apk_binaries
+  - raw_reports_with_sensitive_strings
+  - credentials_and_tokens
+  - user_traffic
+  - vpn_profiles

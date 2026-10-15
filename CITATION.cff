@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this portfolio study, cite it using the metadata below."
+title: "Android VPN Application Security Analysis"
+type: software
+authors:
+  - family-names: "Grouztidis"
+    given-names: "Spiros"
+version: 1.0.0
+date-released: 2026-10-15
+license: proprietary
+abstract: "Evidence-aware portfolio edition of a MobSF-based static analysis study of Android VPN applications."
+keywords:
+  - Android security
+  - VPN
+  - MobSF
+  - OWASP MASVS
+  - mobile application security
+repository-code: "https://github.com/spirosgro/vpn-android-security-analysis"

@@ -1,0 +1,2 @@
+sample_id,package_name,app_name,version_name,version_code,apk_sha256,acquisition_date_utc,scan_date_utc,mobsf_version,mobsf_image_digest,license_tier,source_type,notes
+APP-001,com.example.vpn,Example VPN,1.0.0,100,REPLACE_WITH_SHA256,2026-01-01T00:00:00Z,2026-01-01T01:00:00Z,PINNED_VERSION,sha256:PINNED_DIGEST,unknown,authorized_sample,Template row only

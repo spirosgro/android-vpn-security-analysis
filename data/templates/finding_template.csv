@@ -1,0 +1,2 @@
+finding_id,sample_id,category,title,severity,confidence,evidence_reference,masvs_control,analyst_status,remediation,notes
+F-001,APP-001,network,Example finding,medium,low,private-evidence/path,MASVS-NETWORK-1,needs_review,Validate at runtime,Template row only
